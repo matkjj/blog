@@ -114,16 +114,17 @@
     }
 
     @media (max-width: 480px) {
-      header.barra-navegacion {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-      }
+  header.barra-navegacion {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
 
-      header.barra-navegacion nav {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-    }
-    
+  header.barra-navegacion nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
